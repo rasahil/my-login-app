@@ -8,7 +8,7 @@ function Register() {
             <div className="absolute bg-black opacity-60 inset-0 z-0"></div>
             <div className="w-full px-24 z-10">
                 <h1 className="text-5xl font-bold text-left tracking-wide">Keep it special</h1>
-                <p className="text-3xl my-4">Capture your personal memory in unique way, anywhere.</p>
+                <p className="text-3xl my-4">Do what you can, with what you’ve got, where you are.</p>
             </div>
             <div className="bottom-0 absolute p-4 text-center right-0 left-0 flex justify-center space-x-4">
                 <span>
@@ -27,6 +27,9 @@ function Register() {
                 <div className="absolute bg-black opacity-60 inset-0 z-0"></div>
             </div>
             <div className="w-full py-6 z-20">
+            <div className='text-2xl text-[#E8457C]'>
+              Sign up for
+              </div>
                 <div className='flex justify-center my-8 items-center'>
 
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="54" height="54" className='' viewBox="0 0 48 48">
@@ -44,6 +47,9 @@ function Register() {
                     or use email your account
                 </p>
                 <form action="" className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto">
+                <div className="pb-2 pt-4">
+                        <input type="email" name="text" id="username" placeholder="Username" className="block w-full p-4 text-lg rounded-sm bg-black"/>
+                    </div>
                     <div className="pb-2 pt-4">
                         <input type="email" name="email" id="email" placeholder="Email" className="block w-full p-4 text-lg rounded-sm bg-black"/>
                     </div>
@@ -54,7 +60,7 @@ function Register() {
                         <a href="#">Forgot your password?</a>
                     </div>
                     <div className="px-4 pb-2 pt-4">
-                        <button className="uppercase block w-full p-4 text-lg rounded-full bg-[#ca1d57] hover:bg-indigo-600 focus:outline-none">sign in</button>
+                        <button className="uppercase block w-full p-4 text-lg rounded-full bg-[#ca1d57] hover:bg-indigo-600 focus:outline-none">Register</button>
                     </div>
 
                     <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">

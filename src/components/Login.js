@@ -26,7 +26,11 @@ function Login() {
             <div className="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1577495508048-b635879837f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80)' }}>
                 <div className="absolute bg-black opacity-60 inset-0 z-0"></div>
             </div>
-            <div className="w-full py-6 z-20">
+            
+            <div className="w-full py-2 ">
+              <div className='text-2xl  text-[#E8457C]'>
+              Welcome Back !
+              </div>
                 <div className='flex justify-center my-8 items-center'>
 
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="54" height="54" className='' viewBox="0 0 48 48">
